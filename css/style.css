@@ -17,16 +17,34 @@ header p {
   display: inline-block;
 }
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: #F8F4E3;
   padding: 100px 15px;
 }
 
+.heroImg img {
+  MeesaNobkg 1
+MeesaNobkg.
+png
+width: 287px;
+height: 520px;
+flex-shrink: 0;
+}
+
 .content {
-  max-width: 300px;
+  display: flex;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 50px;
-  background-color: #FFFFFF;
-  text-align: center;
+  padding: 30px;
+  background-color: #FCAEC1;
+  text-align: left;
+}
+
+.aboutText {
+  padding: 4%;
+}
+
+.resumePhoto {
+  background-color: #99EDCC;
 }
 button {
   padding: 15px;
@@ -35,6 +53,66 @@ button {
   font-size: 15px;
   border-radius: 4px;
 }
+
+h1 {
+  color: #1F2421;
+  font-family: Spectral;
+  font-size: 54.93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  color: #1F2421;
+  font-family: Roboto Flex;
+  font-size: 35.16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: #000;
+  font-family: Roboto Flex;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.flexContainer {
+  display: flex;
+}
+
+.flexContainer div {
+  width: 33%;
+  padding: 15px;
+  margin: 80px;
+}
+
+.icon {
+  width: 158.52px;
+  height: 158.52px;
+  flex-shrink: 0;
+}
+
+.workGrid {
+  display: grid;
+}
+
+.project1 {
+  grid-area: myArea;
+}
+
+.project2 {
+  grid-area: yourArea;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-areas: 'myArea yourArea';
+}
+
 footer {
   background-color: #373738;
   padding: 5px;
