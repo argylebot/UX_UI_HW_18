@@ -20,7 +20,7 @@
           <img src="../images/ArgylePhotoCrop.png">
         </div>
         <div class="aboutText">
-          <h1>Jessica Argyle</h1>
+          <h1 style="margin-block-start: 0;">Jessica Argyle</h1>
           <h4>UI/UX Designer</h4>
           <h4>Aspiring UX/UI Designer. Graphic artist. Event planner. Inspired baker. Dog photographer. Creative writer. Coder.</h4>
           <p>Creativity, logic, and connection have always been central in my life as interwoven ways we interact with the world. Understanding those interactions helps create roadmaps to enhance the human experience in a way beyond aesthetics. I have a wide variety of skills and interests when it comes to design, but the underlying thread is a passion for reimagine things as they could be. </p>
@@ -31,19 +31,21 @@
 <!--  My UX Skills section coded using CSS flex -->
 
     <section class="mySkills">
-      <h1>My UX Skills</h1>
+      <div class="sectionTitle">
+        <h1>My UX Skills</h1>
+     </div>
       <div class="flexContainer">
-        <div>
+        <div class="skillsTile">
           <h3>User Research</h3>
-          <img class="icon" src="/images/Research.png">
+          <img src="/images/Research.png">
           <p>When it comes to users, my objective is to get them talking. Ultimately, if it doesn’t work for the user, it doesn’t work for anyone. A mix of quantitative and qualitative data is my preferred solution whenever possible. Qualitative data gives you invaluable trends, but interviews and focus groups give you context along with that crucial human element.</p>
         </div>
-        <div>
+        <div class="skillsTile">
           <h3>User Empathy</h3>
           <img src="/images/Empathy.png">
           <p>Needs and frustrations are the core of the user experience. My belief is that finding ways to reach the crux of that and find a solution that serves all parties is not just a goal but a necessity. You need to understand your users to care, and you need to care to get the job done right.</p>
         </div>
-        <div>
+        <div class="skillsTile">
           <h3>Qualitative Interviews</h3>
           <img src="/images/Interviews.png">
           <p>When it comes to interviewing, a user who feels at ease and understands their value will give you the best insights. Cultivating an environment where a user trusts that their feedback means something makes such a difference in how you approach a project, and in turn, the end result.</p>
@@ -54,10 +56,10 @@
 <!-- My Work Section Constructed using CSS Grid -->
 
     <section class="myWork">
-      <h1>My Work</h1>
-      <div class="workGrid">
+      <h1 class="sectionTitle">My Work</h1>
+      <div class="workGrid gridContainer">
         <div class="project1">
-          <div>
+          <div class="iconImage">
           <img src="./images/SecondNatureNoBkd 1.png">
         </div>
         <div>
@@ -75,9 +77,11 @@
           <p>This redesign of a not-for-profit healthcare system reimagined the current layout of the site to make certain features and information easier for users to find.</p>
           <button>Learn More</button>
         </div>
+      </div>
+      </div>
+      <div class="viewProjects">
         <h3>View all Projects</h3>
-      </div>
-      </div>
+        </div>
 
     </section>
     <footer>
